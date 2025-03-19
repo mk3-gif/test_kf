@@ -116,6 +116,7 @@ p{
     /* margin: 4%; */
     display: flex;
     justify-content: center;
+    /* align-items: center; */
     
 
 }
@@ -528,6 +529,7 @@ p{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    /* border: 1px dotted #667085 ; */
    }
    .positions-img{
     flex-direction: column;
