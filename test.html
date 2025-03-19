@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <link rel="stylesheet" href="test.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#" class="logo"><img src="brand.png" alt="Brand Logo"/></a>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+        <div class="auth-links">
+            <a href="#" class="login">Log in</a>
+            <a href="#" class="signup">Sign up</a>
+        </div>
+        <a class="hamburger" onclick="toggleMenu()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </nav>
+    <header class="container">
+        <div class="content">
+            <h6>About Us</h6>
+            <h1>About The Company</h1>
+            <p>Learn more about the company and team behind it.</p>
+        </div>
+    </header>
+    <section class="container stats">
+        <div class="content-img"><img src="Image.png" alt="Company Image"></div>
+        <div class="content-text">
+            <h6>We've helped hundreds of companies</h6>
+            <h1>We're just getting started on our journey</h1>
+            <div class="stats-grid">
+                <div><p>400+</p><span>Projects Completed</span></div>
+                <div><p>600%</p><span>Return on Investment</span></div>
+                <div><p>10K</p><span>Global Downloads</span></div>
+                <div><p>200+</p><span>5-Star Reviews</span></div>
+            </div>
+        </div>
+    </section>
+    <section class="container partners">
+        <p>From startups to the world's largest companies</p>
+        <div class="logos">
+            <img src="Logos1.png" alt="Logo 1" />
+            <img src="Logos2.png" alt="Logo 2" />
+            <img src="Logos3.png" alt="Logo 3" />
+            <img src="Logos4.png" alt="Logo 4" />
+            <img src="Logos5.png" alt="Logo 5" />
+        </div>
+    </section>
+    <section class="container team">
+        <h6>We're hiring!</h6>
+        <h1>Meet Our Team</h1>
+        <p>Our philosophy is simple: hire diverse, passionate people and foster a culture that empowers you to do your best work.</p>
+        <div class="team-members">
+            <div class="member"><img src="avatar.png" alt="Olivia Rhye"><h5>Olivia Rhye</h5><span>Founder & CEO</span></div>
+            <div class="member"><img src="avatar1.png" alt="Phoenix Baker"><h5>Phoenix Baker</h5><span>Engineering Manager</span></div>
+            <div class="member"><img src="avatar2.png" alt="Lana Steiner"><h5>Lana Steiner</h5><span>Product Manager</span></div>
+            <div class="member"><img src="avatar3.png" alt="Demi Wilkinson"><h5>Demi Wilkinson</h5><span>Frontend Developer</span></div>
+        </div>
+    </section>
+</body>
+</html>
